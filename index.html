@@ -5,6 +5,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
 <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyAB86oANh5xz5MBg81Zo9bARDVU1Vw1uqo",
+  authDomain: "cargame-e0392.firebaseapp.com",
+  databaseURL: "https://cargame-e0392.firebaseio.com",
+  projectId: "cargame-e0392",
+  storageBucket: "cargame-e0392.appspot.com",
+  messagingSenderId: "712952613929",
+  appId: "1:712952613929:web:0351deb7b6c950048fe038"
+};
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
